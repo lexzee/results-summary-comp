@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <!-- <link rel="stylesheet" type="text/css" href="./normalize.css"> -->
+  <link rel="stylesheet" type="text/css" href="./style-reset.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    #result{
+      text-shadow: .1rem .1rem .5rem #aa571c7e;
+    }
+  </style>
+</head>
+<body>
+  <!-- Main Component -->
+  <section id="container">
+    
+    <!-- Result Component -->
+    <section id="result">
+      <h1>Your Result</h1>
+      <div id="score">
+        <p>76</p>
+        <p>of 100</p>
+      </div>
+      <h2>Great</h2>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    <!-- End of Result Component -->
+    <!-- Summary Component -->
+    <section id="summary">
+      <h1>Summary</h1>
+      <div id="resSum">
+        <!-- Reaction -->
+        <section class="cards">
+          <div class="resId">
+            <img src="./assets/images/icon-reaction.svg"/>
+            <p>Reaction</p>
+          </div>
+          <div class="value">
+            <p><span class="v1">80</span> / 100</p>
+          </div>
+        </section>
+        <!-- !Reaction -->
+        
+        <!-- Memory -->
+        <section class="cards">
+          <div class="resId">
+            <img src="./assets/images/icon-memory.svg"/>
+            <p>Memory</p>
+          </div>
+          <div class="value">
+            <p><span class="v2">92</span> / 100</p>
+          </div>
+        </section>
+        <!-- !Memory -->
+        
+        <!-- Verbal -->
+        <section class="cards">
+          <div class="resId">
+            <img src="./assets/images/icon-verbal.svg"/>
+            <p>Verbal</p>
+          </div>
+          <div class="value">
+            <p><span class="v3">61</span> / 100</p>
+          </div>
+        </section>
+        <!-- !Verbal -->
+        
+        <!-- Visual -->
+        <section class="cards">
+          <div class="resId">
+            <img src="./assets/images/icon-visual.svg"/>
+            <p>Visual</p>
+          </div>
+          <div class="value">
+            <p><span class="v4">72</span> / 100</p>
+          </div>
+        </section>
+        <!-- !Visual -->
+      </div>
+      <input type="button" value="Continue"/>
+    </section>
+    <!-- End of Summary Component -->
+    <!-- End of Main Component -->
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/lexzee">Lexzee</a>.
+  </div>
+</body>
+</html>
