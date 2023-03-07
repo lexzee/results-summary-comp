@@ -7,9 +7,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <!-- <link rel="stylesheet" type="text/css" href="./normalize.css"> -->
-  <link rel="stylesheet" type="text/css" href="./style-reset.css">
+  <!-- <link rel="stylesheet" type="text/css" href="./style-reset.css"> -->
   <link rel="stylesheet" type="text/css" href="./style.css">
-  
+
   <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -17,9 +17,9 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
     
-    #result{
+    /* #result{
       text-shadow: .1rem .1rem .5rem #aa571c7e;
-    }
+    } */
   </style>
 </head>
 <body>
@@ -30,7 +30,7 @@
     <section id="result">
       <h1>Your Result</h1>
       <div id="score">
-        <p>76</p>
+        <p class="p1">76</p>
         <p>of 100</p>
       </div>
       <h2>Great</h2>
@@ -42,7 +42,7 @@
       <h1>Summary</h1>
       <div id="resSum">
         <!-- Reaction -->
-        <section class="cards">
+        <section class="cards r">
           <div class="resId">
             <img src="./assets/images/icon-reaction.svg"/>
             <p>Reaction</p>
@@ -54,7 +54,7 @@
         <!-- !Reaction -->
         
         <!-- Memory -->
-        <section class="cards">
+        <section class="cards m">
           <div class="resId">
             <img src="./assets/images/icon-memory.svg"/>
             <p>Memory</p>
@@ -66,7 +66,7 @@
         <!-- !Memory -->
         
         <!-- Verbal -->
-        <section class="cards">
+        <section class="cards ve">
           <div class="resId">
             <img src="./assets/images/icon-verbal.svg"/>
             <p>Verbal</p>
@@ -78,7 +78,7 @@
         <!-- !Verbal -->
         
         <!-- Visual -->
-        <section class="cards">
+        <section class="cards vi">
           <div class="resId">
             <img src="./assets/images/icon-visual.svg"/>
             <p>Visual</p>

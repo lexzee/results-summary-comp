@@ -2,17 +2,20 @@
   height: 98%;
   width: 100%;
   background-color: hsl(0, 0%, 100%);
+  font-size: 18px;
 }
 
 #result{
-  height: 45%;
+  height: auto;
   background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-  border-radius: 0rem 0 3rem 3rem;
+  border-radius: 0rem 0 2.5rem 2.5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  color: hsl(0, 0%, 100%);
+  padding: 2rem 3rem;
 }
 #result > h1{
   
@@ -24,20 +27,81 @@
   border-radius: 100%;
   display: flex;
   padding: 0;
+  margin: 1.5rem auto;
   flex-direction: column;
   text-align: center;
 }
-#score:first-child{
-  font-size: 2rem;
+#score > .p1{
+  font-size: 3rem;
   font-weight: 800;
+  margin-top: 1.5rem;
 }
 #result > h2{
-  
+  font-weight: 700;
 }
 #result > p{
-  
+  margin-bottom: .5rem;
 }
 
 #summary{
-  
+  margin: 1rem 1.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem .8rem;
+  border-radius: .5rem;
+  margin-bottom: .8rem;
+  color: hsl(241, 100%, 89%);
+}
+span{
+  color: hsl(224, 30%, 27%);
+}
+.resId{
+  display: flex;
+  /* justify-content: between; */
+}
+.value{
+
+}
+.cards * img {
+  display: block;
+  margin-right: .7rem;
+}
+.r{
+  background-color: hsla(0, 100%, 67%, 0.05);
+}
+.r .resId{
+  color: hsl(0, 100%, 67%);
+}
+.m{
+  background-color: hsla(39, 100%, 56%, 0.05);
+}
+.m .resId{
+  color: hsl(39, 100%, 56%);
+}
+.ve{
+  background-color: hsla(166, 100%, 37%, 0.05);
+}
+.ve .resId{
+  color: hsl(166, 100%, 37%);
+}
+.vi{
+  background-color: hsla(234, 85%, 45%, 0.05);
+}
+.vi .resId{
+  color: hsl(234, 85%, 45%);
+}
+
+input{
+  height: 2.5rem;
+  margin: 1rem 0;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
 }
